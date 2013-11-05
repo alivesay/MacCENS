@@ -1,0 +1,57 @@
+{
+    IBClasses = (
+        {CLASS = CENSMessage; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = CENSViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {webView = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {quit = id; }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {SBMenu = NSMenu; censB = id; censPanel = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSWindowFullscreen; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {
+                alignCenter = id; 
+                alignJustified = id; 
+                alignLeft = id; 
+                alignRight = id; 
+                changeAttributes = id; 
+                changeColor = id; 
+                changeDocumentBackgroundColor = id; 
+                changeFont = id; 
+                checkSpelling = id; 
+                copy = id; 
+                copyFont = id; 
+                cut = id; 
+                delete = id; 
+                goBack = id; 
+                goForward = id; 
+                makeTextLarger = id; 
+                makeTextSmaller = id; 
+                paste = id; 
+                pasteAsPlainText = id; 
+                pasteAsRichText = id; 
+                pasteFont = id; 
+                performFindPanelAction = id; 
+                reload = id; 
+                showGuessPanel = id; 
+                startSpeaking = id; 
+                stopLoading = id; 
+                stopSpeaking = id; 
+                takeStringURLFrom = id; 
+            }; 
+            CLASS = WebView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

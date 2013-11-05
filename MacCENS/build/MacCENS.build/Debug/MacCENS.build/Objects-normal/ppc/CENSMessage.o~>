@@ -1,0 +1,16 @@
+/Users/alivesay/MacCENS/CENSMessage.m: In function '-[CENSMessage initWithString:]':
+/Users/alivesay/MacCENS/CENSMessage.m:29: error: parse error before '||' token
+/Users/alivesay/MacCENS/CENSMessage.m:31: warning: control reaches end of non-void function
+/Users/alivesay/MacCENS/CENSMessage.m: At top level:
+/Users/alivesay/MacCENS/CENSMessage.m:34: error: 'aMessageHeader' undeclared here (not in a function)
+/Users/alivesay/MacCENS/CENSMessage.m:36: error: parse error before 'if'
+/Users/alivesay/MacCENS/CENSMessage.m:41: error: initializer element is not constant
+/Users/alivesay/MacCENS/CENSMessage.m:41: warning: data definition has no type or storage class
+/Users/alivesay/MacCENS/CENSMessage.m:42: error: initializer element is not constant
+/Users/alivesay/MacCENS/CENSMessage.m:42: warning: data definition has no type or storage class
+/Users/alivesay/MacCENS/CENSMessage.m:44: error: parse error before 'return'
+/Users/alivesay/MacCENS/CENSMessage.m:73: error: parse error before '{' token
+/Users/alivesay/MacCENS/CENSMessage.m: In function '-[CENSMessage setMessageId:andEmergencyId:andLocationId:]':
+/Users/alivesay/MacCENS/CENSMessage.m:79: error: 'aMesssageId' undeclared (first use in this function)
+/Users/alivesay/MacCENS/CENSMessage.m:79: error: (Each undeclared identifier is reported only once
+/Users/alivesay/MacCENS/CENSMessage.m:79: error: for each function it appears in.)
